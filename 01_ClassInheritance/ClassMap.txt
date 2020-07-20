@@ -1,0 +1,47 @@
+________________________
+|Plain                  |
+________________________
+|takeOff()              |
+|landing()              |
+|heightUp(int value)    |
+|heightDown(int value)  |
+|getPlainName()         |
+________________________
+           △
+           |
+           |
+           |
+________________________
+|Cargo                 |
+________________________
+|height                |
+________________________
+|heightUp(int value)    |
+|heightDown(int value)  |
+|getPlainName()         |
+________________________
+
+************************************
+
+________________________
+|Plain                  |
+________________________
+|takeOff()              |
+|landing()              |
+|heightUp(int value)    |
+|heightDown(int value)  |
+|getPlainName()         |
+________________________
+           △
+           |
+           |
+           |
+________________________
+|Jet                   |
+________________________
+|height                |
+________________________
+|heightUp(int value)    |
+|heightDown(int value)  |
+|getPlainName()         |
+________________________

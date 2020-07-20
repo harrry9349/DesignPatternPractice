@@ -1,6 +1,4 @@
-class Plain {
-
-    private int height = 0;
+abstract class Plain {
 
     void takeOff(){
         System.out.println(this.getPlainName() + "が離陸しました");
@@ -10,28 +8,10 @@ class Plain {
         System.out.println(this.getPlainName() + "が着陸しました");
     }
 
-    void heightUp(int value){
-        value = (value >= 0 ? value : 0);
-        this.height += value;
-        if(this.height > 18000){
-            this.height = 18000;
-            System.out.println("高度は18000より高くできません");
-        }
-        System.out.println(this.height);
-    }
+    abstract void heightUp(int value);
 
-    void heightDown(int value){
-        value = (value >= 0 ? value : 0);
-        this.height -= value;
-        if(this.height < 1000){
-            this.height = 1000;
-            System.out.println("高度は1000より低くできません");
-        }
-        System.out.println(this.height);
-    }
+    abstract void heightDown(int value);
 
-    String getPlainName(){
-        return "飛行機";
-    }
+    abstract String getPlainName();
 
 }

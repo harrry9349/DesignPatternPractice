@@ -1,0 +1,4 @@
+Call from 090-0000-0000 to 011-1111-1111
+Send Email from hoge@email.com to fuga@email.com
+Call from 090-0000-0000 to 011-987-6543
+Send Email from hoge@email.com to bar@email.com

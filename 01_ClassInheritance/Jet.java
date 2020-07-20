@@ -1,12 +1,10 @@
 class Jet extends Plain {
 
-    @Override
     String getPlainName(){
         return "ジェット機";
     }
     private int height = 0;
 
-    @Override
     void heightUp(int value){
         value = (value >= 0 ? value : 0);
         this.height += value;
@@ -17,7 +15,6 @@ class Jet extends Plain {
         System.out.println(this.height);
     }
 
-    @Override
     void heightDown(int value){
         value = (value >= 0 ? value : 0);
         this.height -= value;

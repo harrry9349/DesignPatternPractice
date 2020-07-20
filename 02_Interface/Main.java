@@ -10,8 +10,8 @@ public class Main{
         IPhone phone = (IPhone)cp;
         phone.call("011-987-6543");
     //  phone.sendMail("foo@email.com");  コンパイルエラー
+    
         IEmail mail = (IEmail)cp;
-
         mail.sendMail("bar@email.com");
     //mail.call("011-222-3333");　　　　　　コンパイルエラー
 

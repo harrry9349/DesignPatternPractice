@@ -5,7 +5,6 @@ public class Main{
 
         final ArrayList<Plain> plains = new ArrayList<Plain>();
 
-        plains.add(new Plain());
         plains.add(new Cargo());
         plains.add(new Jet());
 
