@@ -7,7 +7,7 @@ public class UnderlinePen implements Product{
     }
     public void use(String s){
         int length = s.getBytes().length;
-        System.out.println("¥"" + s + "¥"" );
+        System.out.println("¥¥" + s + "¥¥" );
         System.out.print(" ");
         
         for(int i = 0; i < length; i++){
@@ -21,7 +21,7 @@ public class UnderlinePen implements Product{
         try{
             p = (Product)clone();
         }catch (CloneNotSupportedException e){
-            e.PrintStackTrace();
+            e.printStackTrace();
         }
         return p;
     }

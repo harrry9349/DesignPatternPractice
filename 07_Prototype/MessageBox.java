@@ -23,7 +23,7 @@ public class MessageBox implements Product{
         try{
             p = (Product)clone();
         }catch (CloneNotSupportedException e){
-            e.PrintStackTrace();
+            e.printStackTrace();
         }
         return p;
     }
