@@ -1,0 +1,16 @@
+[Trouble0]is resolved by[Bob].
+[Trouble33]is resolved by[Bob].
+[Trouble66]is resolved by[Bob].
+[Trouble99]is resolved by[Bob].
+[Trouble132]is resolved by[Diana].
+[Trouble165]is resolved by[Diana].
+[Trouble198]is resolved by[Diana].
+[Trouble231]is resolved by[Elmo].
+[Trouble264]is resolved by[Fred].
+[Trouble297]is resolved by[Elmo].
+[Trouble330]cannot be resolved.
+[Trouble363]is resolved by[Elmo].
+[Trouble396]cannot be resolved.
+[Trouble429]is resolved by[Charlie].
+[Trouble462]cannot be resolved.
+[Trouble495]is resolved by[Elmo].
