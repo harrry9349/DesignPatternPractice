@@ -1,0 +1,5 @@
+名前は現在Aliceです。
+名前は現在Bobです。
+Printerのインスタンス（Bob）を生成中完了
+===Bob===
+Hello,World

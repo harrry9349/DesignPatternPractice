@@ -1,0 +1,37 @@
+____________
+|main       |     
+_____________
+|           |
+_____________
+　　　｜
+　　　｜ uses
+　　　｜
+　　　↓
+_________________         _________________
+|PrinterProxy    |       |Printer          |
+ ________________         _________________
+|-name           |       |-name            |
+|-real           |        _________________ 
+ ________________        |setPrinterName   |
+|setPrinterName  |       |getPrinterName   |
+|getPrinterName  |       |print            |
+|print           |       |-heavyJob        |
+|-realize        |       |                 |
+ ________________         _________________
+　　　◇                          |
+　　　｜                         |
+　　　｜                         |
+     |___________________________
+     |
+     ↓
+_________________ 
+|<<interface>>   |
+|Printable       |
+_________________ 
+|setPrinterName  |
+|getPrinterName  |
+|print           |
+_________________ 
+
+　　　　　　　　　　　　　　　
+
